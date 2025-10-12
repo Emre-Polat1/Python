@@ -1,0 +1,7 @@
+P=float(input("enter Principal number:"))
+R= float(input("enter Rate of interest:"))
+Y=float(input("enter Year:"))
+x=float(P*R*Y/100)
+y=float((P*R*Y/100)+P)
+print("your interest gain is:",x)
+print("your total amount is:",y)
